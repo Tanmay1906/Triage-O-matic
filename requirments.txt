@@ -1,0 +1,12 @@
+'''pip install -r requirements.txt'''
+Flask
+python-magic
+Werkzeug
+web3
+Pillow
+pytesseract
+pdfminer.six
+python-docx
+PyPDF2
+pdfkit
+pandas   

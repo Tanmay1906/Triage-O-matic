@@ -80,7 +80,7 @@ contract_path = os.path.join(os.path.dirname(__file__), 'build', 'contracts', 'M
 with open(contract_path) as f:
     contract_data = json.load(f)
     contract_abi = contract_data['abi']
-    contract_address = '0xB84A9D720f2C6C86F2FFf76be893d175c568e1a9'  # Replace with your contract address
+    contract_address = '0x9BbEbE2eC99FB2A511797854269a1efb765C35E5'  # Replace with your contract address
     contract = web3.eth.contract(address=contract_address, abi=contract_abi)
 
 # Dummy credentials for demonstration
