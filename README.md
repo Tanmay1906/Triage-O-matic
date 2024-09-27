@@ -7,66 +7,7 @@ This project is designed to handle various aspects of evidence collection, contr
 ## Project Structure
 
 
-
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone <repository-url>
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd <project-directory>
-    ```
-3. Create a virtual environment:
-    ```sh
-    python -m venv venv
-    ```
-4. Activate the virtual environment:
-    - On Windows:
-        ```sh
-        venv\Scripts\activate
-        ```
-    - On macOS/Linux:
-        ```sh
-        source venv/bin/activate
-        ```
-5. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. Run the application:
-    ```sh
-    python app.py
-    ```
-
-## Files and Directories
-
-- `app.py`: The main application file.
-- `requirements.txt`: The file containing the required packages.
-- `venv/`: The directory containing the virtual environment.
-- `README.md`: The project README file.
-- `LICENSE`: The project license file.
-
-## Dependencies
-
-- `Flask`: The web framework used for the application.
-- `pyhton-magic`: The Python bindings for the libmagic file type identification library.
-- `Werkzeug`: The WSGI utility library for Python.
-- `web3`: The Python library for interacting with Ethereum.
-- `Pillow`: The Python Imaging Library.
-- `pytesseract`: The Python Tesseract library.
-- `pdfminer.six`: The Python PDF parser and analyzer library.
-- `python-docx`: The Python library for reading and writing Word documents.
-- `PyPDF2`: The Python library for reading and writing PDF files.
-- `pdfkit`: The Python wrapper for the wkhtmltopdf library.
-- `pandas`: The Python data analysis library.
-
-
-## Contributing
+## Installation // Contributing
 
 1. Fork the repository on GitHub.
 2. Clone your forked repository:
@@ -109,6 +50,35 @@ This project is designed to handle various aspects of evidence collection, contr
     ```
 10. Create a pull request on the original repository.
 
+
+## Usage
+
+1. Run the application:
+    ```sh
+    python app.py
+    ```
+
+## Files and Directories
+
+- `app.py`: The main application file.
+- `requirements.txt`: The file containing the required packages.
+- `venv/`: The directory containing the virtual environment.
+- `README.md`: The project README file.
+- `LICENSE`: The project license file.
+
+## Dependencies
+
+- `Flask`: The web framework used for the application.
+- `pyhton-magic`: The Python bindings for the libmagic file type identification library.
+- `Werkzeug`: The WSGI utility library for Python.
+- `web3`: The Python library for interacting with Ethereum.
+- `Pillow`: The Python Imaging Library.
+- `pytesseract`: The Python Tesseract library.
+- `pdfminer.six`: The Python PDF parser and analyzer library.
+- `python-docx`: The Python library for reading and writing Word documents.
+- `PyPDF2`: The Python library for reading and writing PDF files.
+- `pdfkit`: The Python wrapper for the wkhtmltopdf library.
+- `pandas`: The Python data analysis library.
 
 ## License
 
