@@ -2,8 +2,9 @@
 
 ## Overview
 
-This project is designed to handle various aspects of evidence collection, contract management, and chain of custody tracking. It includes functionalities for managing databases, handling evidence collection, and integrating with blockchain contracts.
-
+```sh 
+💡 This project is designed to handle various aspects of evidence collection, contract management, and chain of custody tracking. It includes functionalities for managing databases, handling evidence collection, and integrating with blockchain contracts.
+```
 ## Project Structure
 
 
@@ -12,7 +13,7 @@ This project is designed to handle various aspects of evidence collection, contr
 1. Fork the repository on GitHub.
 2. Clone your forked repository:
     ```sh
-    git clone <your-forked-repository-url>
+    git clone "https://github.com/Tanmay1906/SIH_project.git"
     ```
 3. Navigate to the project directory:
     ```sh
