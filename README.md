@@ -13,7 +13,7 @@
 1. Fork the repository on GitHub.
 2. Clone your forked repository:
     ```sh
-    git clone "https://github.com/Tanmay1906/SIH_project.git"
+    git clone "https://github.com/Tanmay1906/Triage-O-matic"
     ```
 3. Navigate to the project directory:
     ```sh
