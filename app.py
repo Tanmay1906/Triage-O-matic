@@ -71,9 +71,6 @@ def save_json_file(filepath, data):
 ganache_url = "http://127.0.0.1:7545"  # Ganache default URL
 web3 = Web3(Web3.HTTPProvider(ganache_url))
 
-# Check connection to Ganache
-if not web3.is_connected():
-    raise Exception("Error connecting to Web3 provider")
 
 # Load the smart contract ABI and address
 contract_path = os.path.join(os.path.dirname(__file__), 'build', 'contracts', 'MyContract.json')
